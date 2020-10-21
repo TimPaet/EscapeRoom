@@ -23,7 +23,8 @@ class FluchtVorDemCode(EscapeRoom):
             "Über der Tür entdeckst du mehrere Zahlen "
             "und nach mehrmaligen Versuchen fällt dir auf, dass du 2 verschiedene Codes eingeben musst.",
             f"Die Zahlen über der Tür sind folgende: <b> {numbers} </b ",
-            "Am besten schreibst du die Codes auf eine Liste, um Sie nicht zu vergessen"
+            "Am besten schreibst du die Codes auf eine Liste, um Sie nicht zu vergessen",
+            "Dein Input ist -numbers-"
         ]
 
         hints = [
@@ -43,7 +44,8 @@ class FluchtVorDemCode(EscapeRoom):
             "<b> Über dem linken Gang steht die Zahl 11 </b",
             "<b> Über dem mittleren Gang steht die Zahl 8 </b",
             "<b> Über dem rechten Gang steht die Zahl 2 </b",
-            "Du musst dich für eine Zahl entscheiden"
+            "Du musst dich für eine Zahl entscheiden",
+            "Dein Input ist -num-"
         ]
         hints = [
             "Die Zahlen, die auf deiner Liste stehen, sind: -214 und 542",
@@ -60,6 +62,7 @@ class FluchtVorDemCode(EscapeRoom):
             "Du hast den richtigen Gang gewählt und findest eine antike Steintafel und ""einen Kalender.",
             " Du kannst erkennen, dass verschiedene Buchstaben in diese Steintafel gemeißelt sind.",
             f"Die Buchstaben auf der Steintafel sind folgende: <b> {chars} </b",
+            "Dein Input ist -chars-"
         ]
         hints = [
             "Gucke dir an, wie oft es welchen Buchstaben gibt",
@@ -79,7 +82,8 @@ class FluchtVorDemCode(EscapeRoom):
             "Du solltest deine Ergebnisse wohl besser wieder auf eine Liste schreiben",
             "<b> Anmerkung:</b",
             "Du bekommst als Input die Obergrenze, (also 30). Das bedeutet, dass du die Untergrenze (also 2) selber "
-            "definieren musst "
+            "definieren musst ",
+            "Dein Input ist -rnghigh-"
         ]
         hints = [
             "Finde die Primzahlen zwischen 2 und 30",
@@ -95,7 +99,8 @@ class FluchtVorDemCode(EscapeRoom):
             "Du sollst die letzten 3 Primzahlen als Code eingeben, jedoch sollen die"
             "letzten 4 Ziffern maskiert sein.",
             "<b> Beispiel:</b",
-            "24####"
+            "24####",
+            "Dein Input ist -code-"
         ]
 
         hints = [
@@ -114,7 +119,8 @@ class FluchtVorDemCode(EscapeRoom):
             "An einer Wand steht ein Beispiel, nach welchem Schema du auch gleich vorgehen musst.",
             "<b> Du Hast es gleich geschafft!  -  !t ffah cs eghcie lgsetsaHuD</b",
             "Nach diesem Schema musst du jetzt den Passwortsatz herausfinden. Dein gegebener Satz ist:",
-            f"<b> {pw}</b"
+            f"<b> {pw}</b",
+            "Dein Input ist -pw-"
         ]
 
         hints = [
